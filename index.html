@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이글로벌컴퍼니</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <header class="head">
+        <div class="logoBox">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <nav>
+            <ul class="mainMenu">
+                <li><a href="#">회사소개</a>
+                    <ul class="subMenu">
+                        <li><a href="#">CEO 인사말</a></li>
+                        <li><a href="#">기업문화</a></li>
+                        <li><a href="#">경영방침</a></li>
+                        <li><a href="#">회사연혁</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">사업소개</a>
+                    <ul class="subMenu">
+                        <li><a href="#">반도체 설비운영</a></li>
+                        <li><a href="#">건축 공사</a></li>
+                        <li><a href="#">UHP 배관 공사</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">회사활동</a>
+                    <ul class="subMenu">
+                        <li><a href="#">윤리경영</a></li>
+                        <li><a href="#">환경경영</a></li>
+                        <li><a href="#">안전보건경영</a></li>
+                        <li><a href="#">품질경영</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">인재채용</a>
+                    <ul class="subMenu">
+                        <li><a href="#">인재채용</a></li>
+
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="slide">
+        <ul class="subMenu"></ul>
+        <ul id="imgs">
+      
+            <li><a href="#"><span>World Festival 1</span><img src="images/img1.jpg" alt="slideimg1">
+
+                </a></li>
+            <li><a href="#"><span>World Festival 2</span><img src="images/img2.jpg" alt="slideimg1">
+                </a></li>
+            <li> <a href="#"><span>World Festival 3</span><img src="images/img3.jpg" alt="slideimg1">
+                </a></li>
+        </ul>
+    </div>
+
+    <div class="contents">
+        <div class="contentBox">
+            <a href="#"><img src="images/gallery1.jpg" alt=""><span>LINK1</span></a>
+            <a href="#"><img src="images/gallery2.jpg" alt=""><span>LINK2</span></a>
+            <a href="#"><img src="images/gallery3.jpg" alt=""><span>LINK3</span></a>
+            <a href="#"><img src="images/gallery2.jpg" alt=""><span>LINK2</span></a>
+            <a href="#"><img src="images/gallery1.jpg" alt=""><span>LINK1</span></a>
+
+
+
+        </div>
+
+        <div class="c2">
+            <div class="c2Box">
+                <a href="#"><img src="images/shortcut.jpg" alt="">
+                    <span>하이글로컴퍼니 1:1문의 바로가기</span>
+                    <p>언제나 최선을 다하는 하이글로컴퍼니가 되겠습니다.</p>
+
+                </a>
+            </div>
+
+        </div>
+
+        <div class="Box">
+            <div class="c3">
+                <div class="c3Box">
+                    <span style="height: 22px;">공지사항</span>
+                    <div class="pBox">
+                        <p>Vallery Festival 공지1 	2024.08.01</p>
+                        <p>Vallery Festival 공지2 	2024.08.01</p>
+                        <p>Vallery Festival 공지3 	2024.08.01</p>
+                        <p>Vallery Festival 공지4 	2024.08.01</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c4">
+                <div class="c4Box">
+                    <span style="height: 22px;">갤러리</span>
+                        <div class="imgBox">
+                            <div class="Boximg">
+                                <a href="#"><img src="images/gallery1.jpg" alt="g1"><p>직무 소개</p></a>
+                                <a href="#"><img src="images/gallery2.jpg" alt="g1"><p>CEO 대표</p></a>
+                                <a href="#"><img src="images/gallery3.jpg" alt="g1"><p>회사 복지</p></a>
+                            </div>
+
+                           
+                        </div>
+              
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <footer class="foot">
+
+    </footer>
+
+
+
+
+    <script src="javascript/jquery-1.12.3.js"></script>
+    <script src="javascript/javascript.js"></script>
+    <script>
+
+        $('.mainMenu li').mouseover(function () {
+
+            $('.subMenu').stop().slideDown(500);
+
+        });
+
+        $('.mainMenu li').mouseout(function () {
+
+            $('.subMenu').stop().slideUp(500);
+
+        });
+
+    </script>
+</body>
+
+</html>
